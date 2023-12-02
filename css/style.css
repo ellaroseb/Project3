@@ -1,0 +1,537 @@
+#nav1 {
+  background-color: #4F4689;
+  overflow: hidden;
+}
+
+#nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#nav1 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+}
+
+#nav1 ul li a {
+  background-color: #2E2850;
+  color: #C9C1FC;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em;
+  margin: 1.5em;
+  border-radius: 2em;
+}
+
+#nav1 ul li a:hover {
+  color: white;
+  background-color: #7061C6;
+  box-shadow: 0.5em 0.5em #2E2850;
+}
+
+#page1 {
+  background-color: #7061C6;
+}	
+
+#nav2 {
+  background-color: #47658F;
+  overflow: hidden;
+}
+
+#nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#nav2 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+}
+
+#nav2 ul li a {
+  background-color: #273850;
+  color: #BACFEE;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em;
+  margin: 1.5em;
+  border-radius: 2em;
+}
+
+#nav2 ul li a:hover {
+  color: white;
+  background-color: #7699CB;
+  box-shadow: 0.5em 0.5em #273850;
+}
+
+#page2 {
+  background-color: #7699CB;
+}	
+
+#nav3 {
+  background-color: #67AE67;
+  overflow: hidden;
+}
+
+#nav3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#nav3 ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+}
+
+#nav3 ul li a {
+  background-color: #396639;
+  color: #BBF3BB;
+  text-decoration: none;
+  display: block;
+  padding: 1.5em;
+  margin: 1.5em;
+  border-radius: 2em;
+}
+
+#nav3 ul li a:hover {
+  color: white;
+  background-color: #A4EBA4;
+  box-shadow: 0.5em 0.5em #396639;
+}
+
+#page3 {
+  background-color: #A4EBA4;
+}	
+
+#body1 {
+  color: #2E2850;
+  background: rgb(107,96,183);
+  background: linear-gradient(0deg, rgba(107,96,183,1) 0%, rgba(245,244,254,1) 100%);
+  font-family: 'Karla', sans-serif;
+}
+	
+#info {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  background-color:#C0BAEE;
+  border-radius: 2em;
+  padding: 0.5em;
+}
+
+#info h2 {
+  font-weight: lighter;
+}
+	
+#info, p {
+  text-align: center;
+  margin: 1em;
+  font-weight: lighter;
+}
+
+#objective {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em;
+}
+
+#education {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em;
+}
+
+#work {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em;
+}
+
+#work ul {
+  list-style-type: none;
+}
+
+#work ul li {
+  text-align: center;
+  margin: 0.8em;
+}
+
+#skills {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em;
+}
+
+#footer1 {
+  text-align: center;
+  display: block;
+  border-radius: 2em;
+  padding: 0.5em;
+  font-weight: bold;
+  color: white;
+  background-color: #4b4383;
+  margin: 1em;
+}
+
+#body2 {
+  color: #1f2d42;
+  background: rgb(66,93,133);
+  background: linear-gradient(0deg, rgba(66,93,133,1) 0%, rgba(240,245,252,1) 100%);
+  font-family: 'Karla', sans-serif;
+}
+
+#aboutme {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  background-color:#B2C5E0;
+  border-radius: 2em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+#hobbies {
+  text-align: center;
+  width: 100%;
+  margin: 0.5em; 
+}
+
+#hobbies h2 {
+  font-size: xx-large;
+  position: relative;
+  border: 5px solid;
+  border-radius: 2em;
+  display: block;
+  width: 200px;
+  left: 615px;
+}
+
+#hobbies h3 {
+  text-transform: uppercase;
+  position: relative;
+  font-size: x-large;
+  display: inline;
+  left: 20px;
+  margin: 4em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#hobbies img {
+  display: inline; 
+  margin: 3.5em;
+}
+
+#hobbies img:hover {
+  transform: scale(1.2); 
+  background-color: #B2C5E0;
+  border-radius: 2em;
+  padding: 0.2em;
+  transition: transform 0.5s;
+}
+
+#favorites h2 {
+  text-align: center;
+  border: 5px solid;
+  position: relative;
+  display: block;
+  border-radius: 2em;
+  font-size: xx-large;
+  width: 200px;
+  left: 620px;
+}	
+
+#favorites h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: large;
+}	
+
+#favorites iframe {
+  width: 600px;
+  height: 400px;
+  display: block;
+  position: relative;
+  left: 420px;
+  border: 3px solid;
+  border-radius: 2em;
+}
+
+#favorites p {
+  display: inline;
+  margin: 5.1em;
+  position: relative;
+  left: 45px;
+  font-size: large;
+  text-decoration: underline;
+}
+
+#favorites img {
+  position: relative;
+  left: 55px;
+  display: inline;
+  width: 200px;
+  height: 200px;
+  margin: 2em;
+  border-radius: 0.5em;
+}	
+
+#foods h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: x-large;
+  padding: 1em;
+}	
+
+#foods h3 {
+  display: inline;
+  margin: 5.1em;
+  position: relative;
+  left: 30px;
+  font-size: large;
+  text-decoration: underline;
+}
+
+#foods img {
+  position: relative;
+  left: 55px;
+  display: inline;
+  margin: 3.1em;
+}	
+
+#foods img:hover {
+  transform: scale(1.2); 
+  background-color: #385074;
+  border-radius: 2em;
+  padding: 0.2em;
+  transition: transform 0.5s;
+}
+
+#colors h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#colors h3 {
+  display: inline-block;
+  color: white;
+  border: 3px solid;
+  margin: 4em;
+  padding: 1em;
+  border-radius: 2em;
+  position: relative;
+  left: 30px;
+  margin-top: 20px;
+}
+
+.red {
+  background-color: #6b0000;
+}
+
+.blue1 {
+  background-color: #111c60;
+}
+
+.blue2 {
+  background-color: #b5d8f2;
+}
+
+.pink {
+  background-color: #f6cde6;
+}
+
+.black {
+  background-color: black;
+}
+
+#footer2 {
+  text-align: center;
+  display: block; 
+  border-radius: 2em;
+  padding: 0.5em;
+  font-weight: bold;
+  color: white;
+  background-color: #1f2d42;
+  margin: 1em;
+}
+
+#body3 {
+  color: #193719;
+  background: rgb(54,99,54);
+  background: linear-gradient(0deg, rgba(54,99,54,1) 0%, rgba(232,250,232,1) 100%);
+  font-family: 'Karla', sans-serif;
+}
+
+#mycat h1 {
+  text-align: center;
+  display: block;
+  background-color: #A9D9A9;
+  border-radius: 2em;
+  margin: 0.7em;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+#mycat img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+  max-width: 100%;
+  border: 5px solid;
+  border-radius: 20em;
+}
+
+#mycat img:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+#aboutbug h3 {
+  position: relative;
+  display: block;
+  background-color: #A9D9A9;
+  border-radius: 2em;
+  border: 3px solid;
+  margin: 2.6em;
+  padding: 0.8em;
+  width: 340px;
+  left: 500px;
+}
+
+.bugpics {
+  display: block;
+  border-radius: 3em;
+  border: 5px solid;
+  margin: auto;
+  padding: 2em;
+  background: rgb(169,217,169);
+  background: radial-gradient(circle, rgba(169,217,169,1) 0%, rgba(145,178,197,1) 100%);
+}
+
+.handsome {
+  width: 400px;
+  height: 733px;
+  margin-right: auto;
+  border: 3px solid;
+}
+
+.handsome:hover {
+  border-radius: 0 40% 0 40%;
+  transition: border-radius 0.8s;
+}
+
+.bowtie {
+  width: 400px;
+  height: 654px;
+  margin-left: 20px;
+  border: 3px solid;
+}
+
+.bowtie:hover {
+  border-radius: 100%;
+  transition: border-radius 3s;
+}
+
+.closeup {
+  width: 500px;
+  height: 533px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border: 3px solid;
+}
+
+.closeup:hover {
+  border-radius: 40% 0 40% 0;
+  transition: border-radius 0.8s;
+}
+
+#bugfavs h2 {
+  text-align: center;
+  display: block;
+  border: 3px solid;
+  border-radius: 2em;
+  margin: 2em;
+  padding: 0.5em;
+}
+
+#bugfavs h3 {
+  position: relative;
+  font-size: xx-large;
+  display: inline-block ;
+  margin: 3.5em;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#bugfavs img {
+  display: inline;
+  margin: 5.8em;
+  margin-top: 5px;
+}
+
+.fish {
+  vertical-align: top;
+}
+
+.leaves {
+  vertical-align: top;
+}
+
+.claw {
+  border-radius: 100em;
+  width: 150px;
+  height: 275px;
+  vertical-align: top;
+}
+
+.carrot {
+  width: 200px;
+  height: 267px;
+  border-radius: 100em;
+  vertical-align: top;
+}
+
+#footer3 {
+  text-align: center;
+  display: block;
+  border-radius: 2em;
+  padding: 0.5em;
+  font-weight: bold;
+  color: white;
+  background-color: #193719;
+  margin: 1em;
+}
